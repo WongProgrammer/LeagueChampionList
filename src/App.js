@@ -15,14 +15,22 @@ function App() {
     setIsClear(!isClear);
   };
   return (
-    <div className="App">
+    <div>
+      <div id="top"/>
+      <a href="#bot"><img className="pageControls" src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/ADC.png" alt="bottom lane icon"/></a>
+<div className="App">
       <h1>League Champions</h1>
       <List
       className = "list"
         champions ={champions}
       />
       <button onClick={onClickHandler}>{(isClear)? 'Install League' : 'Uninstall League'}</button>
+      
     </div>
+    <a href="#top"><img className="pageControls" src="https://raw.githubusercontent.com/esports-bits/lol_images/master/role_lane_icons/TOP.png" alt="top lane icon"/></a>
+      <div id="bot"/>
+    </div>
+    
   );
 }
 

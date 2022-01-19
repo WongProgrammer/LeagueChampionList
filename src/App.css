@@ -15,6 +15,7 @@ article:hover{
 img{
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(19,85,91,255);
+    transition: 0.3s;
     height: 250px;
     width: 250px;
     margin: 5px;
@@ -54,5 +55,16 @@ button {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
 }
+
+.pageControls {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 5px;
+}
+
+
+
+
 
 
